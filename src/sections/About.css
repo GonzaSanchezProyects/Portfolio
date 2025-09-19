@@ -1,0 +1,58 @@
+.about {
+  padding: 1rem;
+  border-radius: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-family: "poppins";
+  background-color: rgb(33, 33, 33);
+  font-size: 1.25rem;
+  opacity: 0.88;
+  border: 1px solid white;
+}
+#avatar{
+    height: 25rem;
+    border-radius: 50px;
+}
+.infoDiv button{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.infoDiv button:hover{
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  transition: 0.5s;
+}
+
+@media (max-width:1400px){
+  .about{
+    flex-direction: column;
+    width: 30rem;
+  }
+}
+@media (max-width:800px){
+  .about{
+    width: 20rem;
+  }
+  #avatar{
+    height: 15rem;
+    border-radius: 20px;
+  }
+}
+@media (max-width:800px){
+    .about{
+    width: 18rem;
+  }
+}

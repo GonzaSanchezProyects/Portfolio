@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "title": "Hola, soy Gonzalo",
+    "intro": "Desarrollador Frontend"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Soy un estudiante de Desarrollo de Software orientado al Frontend, con experiencia en el desarrollo web para empresas. Me interesa crear interfaces atractivas, funcionales y optimizadas para mejorar la experiencia del usuario.",
+    "button": "DESCARGAR MI CV"
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "cards1Name": "¿Cuanto Sabes",
+    "parrafo1": "Página de quizes orientada a la historia mundial que determina a que genio de la antiguedad equivale tu conocimiento",
+    "parrafo2": "Negocio de desarrollo web llevado a cado durante los años 2024 - 2025",
+    "parrafo3": "Página web desarrollada para un cliente con una empresa de receptivos en miami, incluye control de idioma, sistema de traslados y indice de busqueda de departamento"
+  },
+  "studies": {
+    "title": "Estudios",
+    "titulo1": "Tecnico Universitario en Desarrollo de Software",
+    "titulo2": "Curso de Desarrollo Web",
+    "titulo3": "Curso de JavaScript",
+    "certificacion": "VER CERTIFICACIÓN"
+  },
+  "footer": {
+    "text": "© 2025 Gonzalo. Todos los derechos reservados."
+  },
+  "contact": {
+    "title": "Contacto"
+  },
+  "skills":{
+    "title": "Habilidades"
+  }
+}

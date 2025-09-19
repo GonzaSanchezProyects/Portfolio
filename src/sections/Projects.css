@@ -1,0 +1,104 @@
+.projects {
+  padding: 3em 1em;
+  width: 100rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 100px;
+    width: 100%;
+    margin-top: 5rem;
+    font-family: "Poppins";
+    color: white;
+    text-align: center;
+}
+.parent p{
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.258);
+  margin: 10px;
+  border-radius: 5px;
+}
+.parent h3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+.projects h2{
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: white;
+}
+.parent .div1, .div2, .div3, .div4, .divITU, .divCoder1{
+  width: 25rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2%;
+}
+.div4 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../public/construccion.jpg");
+}
+
+.div5 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../public/construccion.jpg");
+}
+
+.div6 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../public/construccion.jpg");
+}
+.div1{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../public/CuantoSaesCap.png");
+  background-size: 100%;
+}
+.div2{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../public/malec.png");
+  background-size: 100%;
+}
+.div3{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../public/miami.png");
+  background-size: 100%;
+}
+
+.SvgProyecto{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.SvgProyecto img{
+  height: 4rem;
+}
+
+@media (max-width: 1400px) {
+  .parent .div1, .div2, .div3, .div4, .divITU, .divCoder1{
+    width: 20rem;
+    height: 20rem;
+  }
+  .parent{
+    gap: 30px;
+  }
+}
+@media (max-width: 1400px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+}

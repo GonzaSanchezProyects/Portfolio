@@ -1,0 +1,80 @@
+.skills {
+  padding: 3em 1em;
+  position: absolute;
+  top: -8rem;
+  right: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  scale: 80%;
+
+}
+.skills h2{
+  font-weight: 400;
+  color: rgb(193, 193, 193);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.skills-grid {
+  display: grid;
+  gap: 1.5em;
+}
+
+.hability img{
+  height: 5rem;
+}
+.hability{
+  background-color: rgb(33, 33, 33);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  opacity: 0.88;
+  border: 1px solid white;
+  padding: 20px;
+}
+.hability:hover{
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+@media (max-width:1400px){
+  .skills{
+    right: -1rem;
+  }
+}
+@media (max-width:800px){
+  .hability{
+    padding: 10px;
+  }
+}
+@media (max-width:800px){
+  .hability{
+    scale: 0.9;
+  }
+}
+@media (max-width: 550px){
+  .skills-grid{
+    display: flex;
+    flex-direction: row;
+  }
+  .skills{
+    position: absolute;
+    top: 70rem;
+    right: 50%;
+    left: 50%;
+    scale: 0.6;
+      padding: 0;
+    }
+
+}

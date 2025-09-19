@@ -1,0 +1,13 @@
+.hero {
+  text-align: center;
+  padding: 3em 1em;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.hero h1{
+    font-weight: 200;
+}
+.hero h2{
+    font-weight: 600;
+}
+
