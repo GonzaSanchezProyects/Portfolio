@@ -23,28 +23,28 @@ export default function Projects({ texts }) {
             <h3>{texts?.cards1Name || "Cargando..."}</h3>
             <p>{texts?.parrafo1 || "Cargando..."}</p>
             <div className="SvgProyecto">
-                <img src="./public/html.svg" alt=""/>
-                <img src="./public/css.svg" alt=""/>
-                <img src="./public/js.svg" alt=""/>
-                <img src="./public/react.svg" alt=""/>
+                <img src="/html.svg" alt=""/>
+                <img src="/css.svg" alt=""/>
+                <img src="/js.svg" alt=""/>
+                <img src="/react.svg" alt=""/>
             </div>
           </div>
           <div data-aos="fade-up" data-aos-duration="500" class="div2">
             <h3>Malbec Bytes</h3>
             <p>{texts?.parrafo2 || "Cargando..."}</p>
             <div className="SvgProyecto">
-                <img src="./public/html.svg" alt=""/>
-                <img src="./public/css.svg" alt=""/>
-                <img src="./public/js.svg" alt=""/>
+                <img src="/html.svg" alt=""/>
+                <img src="/css.svg" alt=""/>
+                <img src="/js.svg" alt=""/>
             </div>
           </div>
           <div data-aos="fade-up" data-aos-duration="500" class="div3">
             <h3>Las Lomitas LLC</h3>
             <p>{texts?.parrafo3 || "Cargando..."}</p>
             <div className="SvgProyecto">
-                <img src="./public/html.svg" alt=""/>
-                <img src="./public/css.svg" alt=""/>
-                <img src="./public/js.svg" alt=""/>
+                <img src="/html.svg" alt=""/>
+                <img src="/css.svg" alt=""/>
+                <img src="/js.svg" alt=""/>
             </div>
           </div>
         </div>
